@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 const PORT = process.env.PORT || 5000; // Load PORT from .env or default to 5000
-const SECRET_KEY = process.env.SECRET_KEY || "your_secret_key"; // Load secret key from .env
+const SECRET_KEY = process.env.SECRET_KEY || 12345678; // Load secret key from .env
 
 // Middleware
 app.use(express.json());
